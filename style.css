@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+*{
+ margin:0px;
+ padding:0px;
+ box-sizing:border-box;
+ 
+ }
+ body{
+	 background-color:bee1e6;
+	 
+ }
+ 
+ ul{
+	list-style:none;
+}
+ .flex{
+	 display:flex;
+	 align-items:center;
+ }
+ .container{
+	 max-width:1120px;
+	 margin-inline:auto;
+	 overflow:hidden;
+ }
+ nav{
+	 background-color:001d3d;
+	 box-shadow:0 0 4px #bbd0e2;
+	 position:fixed;
+	 color:e7ecef;
+	 top:0;
+	 z-index:99;
+	 left:0;
+	 right:0;
+ }
+ .main-nav{
+	 justify-content:space-between;
+	 padding-block:8px;
+ }
+ .company-logo img{
+	 width:50px;
+ }
+ .nav-link ul{
+	 gap:20px;
+ } 
+.hover-link{
+     cursor	:pointer;
+}
+.hover-link:hover{
+	color:white;
+}
+.hover-link:active{
+	color:ffd166;
+}
+main{
+	padding-block:80px;
+	margin-top:80px;
+}
+h1{
+	font-size:2.5em;
+	font-weight:800;
+	
+}
+p{
+	line-height:2.5em;
+	font-family:sans-serif;
+	font-size:1.2em;
+}
+.cotent{
+	margin:5px;
+	padding:5px;
+}
+.button-container{
+	display:flex;
+}
+
+.button{
+	
+	 border-radius: 5px;
+     margin-left: 12px;
+     box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.3);
+     font-weight: 400;
+     border: 1px solid #eee;
+     background:#00fa9a;
+     padding: 15px 36px;
+     text-transform: uppercase;
+     cursor:pointer;                   
+}
+.button:hover{
+	background-color:06d6a0;
+}
+Image{
+	width: 90%;
+    margin-top: 24px;
+    margin-bottom: 10px;
+   
+}
